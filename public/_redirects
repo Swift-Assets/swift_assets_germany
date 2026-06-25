@@ -1,0 +1,2 @@
+# SPA fallback — GET only so POSTs reach Netlify Forms
+/*                   /index.html   200!  Method=GET

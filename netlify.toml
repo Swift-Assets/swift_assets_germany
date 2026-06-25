@@ -1,0 +1,12 @@
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+# SPA fallback for client-side routing (React Router).
+# GET-only so that POST submissions still reach Netlify Forms at "/".
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+  conditions = {Method = ["GET"]}
