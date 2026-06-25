@@ -30,25 +30,26 @@
       name="twitter:description"
       content="Swift Assets UG erwirbt und verwertet Insolvenzmassen mit Spezialisierung auf medizinische und pharmazeutische Güter. Solingen, Deutschland."
     />
-    <meta
-      property="og:image"
-      content="https://storage.googleapis.com/gpt-engineer-file-uploads/SEj3cOtB3nYEUl9zCO4QVu7szHD2/social-images/social-1779657044116-ChatGPT_Image_24._Mai_2026,_23_10_33.webp"
-    />
-    <meta
-      name="twitter:image"
-      content="https://storage.googleapis.com/gpt-engineer-file-uploads/SEj3cOtB3nYEUl9zCO4QVu7szHD2/social-images/social-1779657044116-ChatGPT_Image_24._Mai_2026,_23_10_33.webp"
-    />
-    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Local social-share image. TODO: for richest previews, replace with an
+         absolute URL (https://<your-domain>/icons/icon-512.png) once the final
+         domain is known, and optionally a dedicated 1200x630 social image. -->
+    <meta property="og:image" content="/icons/icon-512.png" />
+    <meta name="twitter:image" content="/icons/icon-512.png" />
+    <meta name="twitter:card" content="summary" />
   </head>
   <body>
     <div id="root"></div>
-    <!-- Netlify Forms detection (hidden static form) -->
+    <!-- Netlify Forms detection (hidden static form).
+         Field names MUST match the visible form in src/components/sections/Contact.tsx.
+         The recipient email (info@swift-assets.de) is configured in the Netlify
+         dashboard under Forms → form notifications, not in this markup. -->
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
       <input type="text" name="phone" />
       <input type="text" name="company" />
       <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
     </form>
     <script type="module" src="/src/main.tsx"></script>
   </body>

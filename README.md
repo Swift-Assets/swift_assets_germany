@@ -76,25 +76,39 @@ The repository ships with a clean [`netlify.toml`](./netlify.toml):
 The Kontaktbox uses [Netlify Forms](https://docs.netlify.com/forms/setup/):
 
 - A hidden static form named `contact` is declared in [`index.html`](./index.html) so Netlify can
-  detect it at build time.
+  detect it at build time. Its field names must match the visible form.
 - The visible form in `src/components/sections/Contact.tsx` POSTs to `/` with
   `data-netlify="true"` and a honeypot field (`bot-field`).
 - The SPA fallback redirect is **GET-only**, so form POSTs reach Netlify Forms correctly.
 
-Submissions appear under **Forms** in the Netlify dashboard. Configure email notifications there if
-desired. No external backend or API is involved.
+#### ⚠️ Recipient email must be configured in Netlify (not in code)
+
+Netlify manages form-notification recipients in the **dashboard**, not in the repository. There is
+no secret or backend key to set, and the recipient address **cannot** be forced from code. After
+deploying:
+
+1. Open **Netlify → your site → Forms → form notifications** (or **Site settings → Forms →
+   Notifications**).
+2. Add an **email notification** and set the recipient to **`info@swift-assets.de`**.
+3. Save. New submissions will then be emailed to that address (and remain visible under **Forms**).
+
+> Until this is configured, submissions are still captured under **Forms** in the dashboard, but no
+> email is sent. No external backend, API route, or database is involved.
 
 ## Project structure
 
 ```
 index.html                  # entry HTML + hidden Netlify form
 src/
-  main.tsx                  # app bootstrap + router ("/" landing, "*" 404)
+  main.tsx                  # app bootstrap + router ("/", "/impressum", "/datenschutz", "*")
   pages/
     Home.tsx                # landing page composition
+    Impressum.tsx           # legal: Impressum (German, placeholder TODOs)
+    Datenschutz.tsx         # legal: Datenschutzerklärung (German, placeholder TODOs)
     NotFound.tsx            # 404 fallback
   components/
     Nav.tsx                 # in-page scroll navigation
+    LegalLayout.tsx         # shared header/footer shell for legal pages
     sections/               # Hero, About, Services, Process, Specialty, Contact, Footer
     ui/                     # shadcn/ui primitives
   lib/
@@ -102,3 +116,10 @@ src/
 public/                     # icons, manifest, robots, _redirects
 netlify.toml                # Netlify build + SPA fallback config
 ```
+
+## Legal pages
+
+`/impressum` and `/datenschutz` are static German legal pages linked from the footer. They contain
+**placeholder `[TODO: …]` fields** for company data (Geschäftsführer, Anschrift, Registergericht,
+HRB-Nummer, USt-IdNr., Telefon, dates). **These must be filled with the real legal data before the
+site goes public** — see the report for the full checklist.

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Logo } from "../Logo";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { useLang } from "@/lib/i18n";
@@ -18,7 +19,15 @@ export function Footer() {
             <LanguageSwitcher />
           </div>
         </div>
-        <div className="mt-10 pt-6 border-t border-[#1a1a1a] text-center text-[11px] text-[#888888]">
+        <nav className="mt-8 flex justify-center gap-6 text-[12px] tracking-wide">
+          <Link to="/impressum" className="text-[#bdbdbd] transition-colors hover:text-white">
+            Impressum
+          </Link>
+          <Link to="/datenschutz" className="text-[#bdbdbd] transition-colors hover:text-white">
+            Datenschutz
+          </Link>
+        </nav>
+        <div className="mt-6 border-t border-[#1a1a1a] pt-6 text-center text-[11px] text-[#888888]">
           {t("footer_rights")}
         </div>
       </div>
