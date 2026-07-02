@@ -17,33 +17,41 @@ const T: Record<Lang, Dict> = {
       "Wir erwerben und verwerten Insolvenzmassen — mit Fokus auf medizinische und pharmazeutische Güter.",
     hero_cta: "Kontakt aufnehmen",
     about_title: "Über uns",
-    about_body:
-      "Swift Assets UG ist ein junges, dynamisches Handelsunternehmen mit Sitz in Solingen, Deutschland. Wir sind spezialisiert auf den Erwerb, die Bewertung, den Transport, die Lagerung und den Wiederverkauf von Vermögenswerten aus Insolvenzverfahren — insbesondere aus dem medizinischen und pharmazeutischen Bereich.",
+    purpose_eyebrow: "Unternehmensgegenstand",
+    purpose_title: "Erwerb und Verwertung notleidender Unternehmen",
+    purpose_body: [
+      "Gegenstand des Unternehmens ist der Erwerb und die Verwertung notleidender Unternehmen sowie von Unternehmensvermögen im Ganzen oder in Teilen, sei es im eigenen Namen und auf eigene Rechnung oder treuhänderisch im fremden Namen und für fremde Rechnung im Auftrag von Unternehmen und Privatpersonen.",
+      "Die Tätigkeit der Gesellschaft erstreckt sich branchenübergreifend auf sämtliche Wirtschaftszweige, wobei ein besonderer Schwerpunkt auf der Verwertung von Vermögensgegenständen des Gesundheitssektors liegt, insbesondere von Unternehmen des Gesundheitswesens, Krankenhaus- und Klinikausstattungen, Medizingeräten und medizintechnischen Erzeugnissen, medizinischen Verbrauchsmaterialien, kosmetischen Erzeugnissen, Nahrungsergänzungsmitteln sowie Produkten des öffentlichen Gesundheitswesens und der persönlichen Hygiene.",
+      "Die Gesellschaft erbringt darüber hinaus Dienstleistungen der gezielten Recherche nach Erwerbsgelegenheiten nach Maßgabe der jeweiligen Vorgaben ihrer Auftraggeber sowie die Bewertung von Übernahmegelegenheiten für Dritte, einschließlich der Prüfung von Vermögensgegenständen auf ihre Erwerbs- und Weiterveräußerungsfähigkeit und der Ermittlung ihres Potenzials zur Erzielung einer bestmöglichen Rendite.",
+      "Die Gesellschaft ist ferner berechtigt, den Export von Waren in Drittländer außerhalb der Europäischen Union zu vermitteln und durchzuführen sowie die damit verbundene Zollabwicklung und den See-, Luft- und Landtransport nach Maßgabe des jeweiligen Auftrags und Bestimmungsortes zu organisieren.",
+      "Die Prüfung von Rechnungen und Eigentumsübertragungsdokumenten auf ihre Rechtmäßigkeit und Gesetzeskonformität erfolgt unter Hinzuziehung zugelassener Rechtsvertreter.",
+      "Die Gesellschaft ist zu allen Geschäften und Maßnahmen berechtigt, die dem Gegenstand des Unternehmens unmittelbar oder mittelbar zu dienen geeignet sind. Sie kann sich an anderen Unternehmen gleicher oder ähnlicher Art beteiligen, solche Unternehmen erwerben, veräußern und vertreten sowie Zweigniederlassungen im In- und Ausland errichten.",
+    ],
     services_title: "Leistungen",
-    sv1_t: "Erwerb von Vermögenswerten",
-    sv1_d:
-      "Strategischer Erwerb von Vermögenswerten aus Insolvenzverfahren, Unternehmensrestrukturierungen und Sondersituationen.",
-    sv2_t: "Verwertung von Vermögenswerten",
-    sv2_d:
-      "Effiziente Umwandlung von Sachwerten in liquide Mittel über etablierte Kanäle und Partnernetzwerke.",
-    sv3_t: "Handelsvermittlung",
-    sv3_d:
-      "Ermöglichung handelsrechtlich konformer Vermittlungslösungen für pharmazeutische Produkte und regulierte Güter, soweit gesetzlich zulässig. Swift Assets tritt als Vermittler auf und erwirbt solche Güter nicht auf eigene Rechnung.",
-    sv4_t: "Bestandsbewertung",
-    sv4_d:
-      "Professionelle Bestandsaufnahme, Katalogisierung und Bewertung vor Ort über verschiedene Vermögensklassen hinweg.",
-    sv5_t: "Koordination externer Experten",
-    sv5_d:
-      "Koordination mit unabhängigen externen Spezialisten für Vermögensbewertung, Due Diligence, Asset Assessment und Optimierung der Verwertung.",
-    sv6_t: "Marktforschung & Identifikation von Chancen",
-    sv6_d:
-      "Kontinuierliche Marktbeobachtung zur Identifikation von Erwerbs- und Vermittlungsmöglichkeiten in regulierten und unregulierten Sektoren.",
-    sv7_t: "Logistikkoordination",
-    sv7_d:
-      "Durchgängige Koordination von sicherem Transport, Lagerung und konformer Handhabung – einschließlich temperaturgeführter Umgebungen.",
-    sv8_t: "Strategische Beratung",
-    sv8_d:
-      "Beratungsleistungen für Stakeholder bei der Verwertung von Vermögenswerten, Restrukturierungen und grenzüberschreitenden Handelstransaktionen.",
+    svc1_t: "Erwerb & Verwertung",
+    svc1_f: "Ganz oder in Teilen.",
+    svc1_d:
+      "Wir erwerben notleidende Unternehmen und Unternehmensvermögen und überführen Sachwerte effizient in liquide Mittel — über etablierte Kanäle und ein belastbares Partnernetzwerk.",
+    svc2_t: "Eigenhandel & Treuhand",
+    svc2_f: "Im eigenen Namen oder treuhänderisch.",
+    svc2_d:
+      "Wir handeln im eigenen Namen und auf eigene Rechnung ebenso wie treuhänderisch im Auftrag von Unternehmen und Privatpersonen — diskret und rechtssicher.",
+    svc3_t: "Individuelle Zielsuche",
+    svc3_f: "Nach Ihren Vorgaben.",
+    svc3_d:
+      "Auf Wunsch recherchieren wir gezielt nach konkreten Erwerbsgelegenheiten, die exakt den Vorgaben unserer Auftraggeber entsprechen.",
+    svc4_t: "Bewertung & Due Diligence",
+    svc4_f: "Chancen und Assets.",
+    svc4_d:
+      "Wir bewerten Übernahmegelegenheiten für Dritte, prüfen Vermögensgegenstände auf ihre Erwerbs- und Weiterveräußerungsfähigkeit und ermitteln ihr Potenzial für eine bestmögliche Rendite.",
+    svc5_t: "Export & Logistik",
+    svc5_f: "Weltweit, auch außerhalb der EU.",
+    svc5_d:
+      "Wir vermitteln und realisieren den Export in Drittländer und organisieren die Zollabwicklung sowie den See-, Luft- und Landtransport nach Bedarf und Bestimmungsort.",
+    svc6_t: "Rechtliche Prüfung",
+    svc6_f: "Geprüft durch zugelassene Vertreter.",
+    svc6_d:
+      "Rechnungen und Eigentumsübertragungsdokumente prüfen wir über zugelassene Rechtsvertreter auf Rechtmäßigkeit und vollständige Gesetzeskonformität.",
     process_eyebrow: "Unser Prozess",
     process_title: "Ein strukturierter Weg von der Beschaffung bis zur Umsetzung.",
     process_steps: [
@@ -105,33 +113,41 @@ const T: Record<Lang, Dict> = {
       "We acquire and liquidate insolvency assets — specializing in medical and pharmaceutical goods.",
     hero_cta: "Get in Touch",
     about_title: "About Us",
-    about_body:
-      "Swift Assets UG is a young, dynamic trading company based in Solingen, Germany. We specialize in acquiring, evaluating, transporting, storing and reselling assets from insolvency proceedings — with a particular focus on medical and pharmaceutical assets.",
+    purpose_eyebrow: "Company Purpose",
+    purpose_title: "Acquisition and Liquidation of Distressed Companies",
+    purpose_body: [
+      "The purpose of the company is the acquisition and liquidation of distressed companies and of corporate assets, in whole or in part — whether in its own name and for its own account, or in a fiduciary capacity in the name of and for the account of others, on behalf of companies and private individuals.",
+      "The company's activities extend across all economic sectors, with a particular focus on the liquidation of assets in the healthcare sector — notably healthcare companies, hospital and clinic equipment, medical devices and medical-technology products, medical consumables, cosmetic products, dietary supplements, and products for public health and personal hygiene.",
+      "In addition, the company provides services for the targeted search of acquisition opportunities according to each client's specifications, as well as the evaluation of acquisition opportunities for third parties — including the assessment of assets for their acquisition and resale potential and the determination of their capacity to achieve the best possible return.",
+      "The company is further entitled to broker and carry out the export of goods to third countries outside the European Union, and to organise the associated customs clearance and sea, air and land transport according to each assignment and destination.",
+      "The review of invoices and title-transfer documents for their legality and regulatory compliance is carried out with the involvement of licensed legal representatives.",
+      "The company is entitled to conduct all business and take all measures suitable to serve its purpose directly or indirectly. It may participate in, acquire, dispose of and represent other companies of the same or a similar nature, and may establish branch offices in Germany and abroad.",
+    ],
     services_title: "Services",
-    sv1_t: "Asset Acquisition",
-    sv1_d:
-      "Strategic acquisition of assets from insolvency proceedings, corporate restructurings and special situations.",
-    sv2_t: "Asset Liquidation",
-    sv2_d:
-      "Efficient conversion of tangible assets into liquidity through established channels and partner networks.",
-    sv3_t: "Commercial Brokerage",
-    sv3_d:
-      "Facilitation of legally compliant intermediation solutions for pharmaceutical products and regulated goods, where permitted by law. Swift Assets acts solely as an intermediary and does not acquire such goods on its own account.",
-    sv4_t: "Inventory Evaluation",
-    sv4_d:
-      "Professional on-site inventory, cataloguing and valuation across multiple asset classes.",
-    sv5_t: "External Expert Coordination",
-    sv5_d:
-      "Coordination with independent external specialists for asset valuation, due diligence, asset assessment and liquidation optimization.",
-    sv6_t: "Market Research & Opportunity Identification",
-    sv6_d:
-      "Continuous market monitoring to identify acquisition and brokerage opportunities in regulated and unregulated sectors.",
-    sv7_t: "Logistics Coordination",
-    sv7_d:
-      "End-to-end coordination of secure transport, storage and compliant handling — including temperature-controlled environments.",
-    sv8_t: "Strategic Consulting",
-    sv8_d:
-      "Advisory services for stakeholders in asset liquidation, restructuring and cross-border commercial transactions.",
+    svc1_t: "Acquisition & Liquidation",
+    svc1_f: "In whole or in part.",
+    svc1_d:
+      "We acquire distressed companies and corporate assets and convert tangible assets efficiently into liquidity — through established channels and a robust partner network.",
+    svc2_t: "Principal & Fiduciary",
+    svc2_f: "On our own account or in trust.",
+    svc2_d:
+      "We act in our own name and for our own account, as well as in a fiduciary capacity on behalf of companies and private individuals — discreetly and with legal certainty.",
+    svc3_t: "Custom Target Search",
+    svc3_f: "To your specifications.",
+    svc3_d:
+      "On request, we conduct a targeted search for specific acquisition opportunities that precisely match our clients' criteria.",
+    svc4_t: "Valuation & Due Diligence",
+    svc4_f: "Opportunities and assets.",
+    svc4_d:
+      "We evaluate acquisition opportunities for third parties, assess assets for their acquisition and resale potential, and determine their capacity for the best possible return.",
+    svc5_t: "Export & Logistics",
+    svc5_f: "Worldwide, beyond the EU.",
+    svc5_d:
+      "We broker and execute exports to third countries and organise customs clearance and sea, air and land transport according to need and destination.",
+    svc6_t: "Legal Verification",
+    svc6_f: "Verified by licensed representatives.",
+    svc6_d:
+      "We verify invoices and title-transfer documents through licensed legal representatives for legality and full regulatory compliance.",
     process_eyebrow: "Our Process",
     process_title: "A structured path from sourcing to execution.",
     process_steps: ["Discovery", "Evaluation", "Expert Review", "Brokerage", "Execution"],
@@ -185,29 +201,40 @@ const T: Record<Lang, Dict> = {
     hero_sub: "نشتري ونُسيّل أصول الإفلاس — بتخصص في المواد الطبية والصيدلانية.",
     hero_cta: "تواصل معنا",
     about_title: "من نحن",
-    about_body:
-      "Swift Assets UG شركة تجارية ناشئة وديناميكية مقرها زولينغن، ألمانيا. متخصصون في شراء وتقييم ونقل وتخزين وإعادة بيع الأصول الناتجة عن الإفلاس، مع تركيز خاص على القطاع الطبي والصيدلاني.",
+    purpose_eyebrow: "غرض الشركة",
+    purpose_title: "الاستحواذ على الشركات المتعثرة وتسييلها",
+    purpose_body: [
+      "غرض الشركة هو الاستحواذ على الشركات المتعثرة وتسييلها، وكذلك على أصول الشركات كلياً أو جزئياً، سواء باسمها ولحسابها الخاص أو بصفتها وكيلاً أميناً باسم الغير ولحسابه، بتكليف من الشركات والأفراد.",
+      "يمتد نشاط الشركة ليشمل جميع القطاعات الاقتصادية دون استثناء، مع تركيز خاص على تسييل أصول القطاع الصحي، ولا سيما شركات الرعاية الصحية، وتجهيزات المستشفيات والعيادات، والأجهزة والمعدات الطبية، والمستهلكات الطبية، ومستحضرات التجميل، والمكملات الغذائية، ومنتجات الصحة العامة والنظافة الشخصية.",
+      "تقدّم الشركة إضافةً إلى ذلك خدمات البحث المخصّص عن فرص الاستحواذ وفقاً لتوجيهات كل عميل، وكذلك تقييم فرص الاستحواذ لصالح الغير، بما يشمل فحص الأصول من حيث قابليتها للاستحواذ وإعادة البيع، وتقدير إمكاناتها لتحقيق أعلى عائد ممكن.",
+      "كما يحق للشركة التوسّط في تصدير البضائع إلى الدول خارج الاتحاد الأوروبي وتنفيذه، وتنظيم ما يرتبط بذلك من تخليص جمركي ونقل بحري وجوي وبري، وفقاً لكل تكليف ووجهة تصدير.",
+      "ويتم فحص الفواتير ووثائق نقل الملكية للتأكد من قانونيتها ومطابقتها للأنظمة، وذلك بالاستعانة بوكلاء قانونيين معتمدين.",
+      "وللشركة الحق في مباشرة جميع الأعمال والإجراءات التي تخدم غرضها بشكل مباشر أو غير مباشر، ولها أن تساهم في شركات أخرى مماثلة أو مشابهة، وأن تشتريها وتبيعها وتمثّلها، وأن تنشئ فروعاً داخل ألمانيا وخارجها.",
+    ],
     services_title: "الخدمات",
-    sv1_t: "الاستحواذ على الأصول",
-    sv1_d: "استحواذ استراتيجي على الأصول من إجراءات الإفلاس وإعادة هيكلة الشركات والحالات الخاصة.",
-    sv2_t: "تسييل الأصول",
-    sv2_d: "تحويل فعّال للأصول العينية إلى سيولة عبر قنوات راسخة وشبكات شركاء.",
-    sv3_t: "الوساطة التجارية",
-    sv3_d:
-      "تسهيل حلول وساطة متوافقة قانونياً للمنتجات الصيدلانية والسلع الخاضعة للتنظيم، حيثما يسمح القانون. تعمل Swift Assets كوسيط فقط ولا تشتري هذه السلع لحسابها الخاص.",
-    sv4_t: "تقييم المخزون",
-    sv4_d: "جرد وتصنيف وتقييم احترافي في الموقع لمختلف فئات الأصول.",
-    sv5_t: "تنسيق الخبراء الخارجيين",
-    sv5_d:
-      "التنسيق مع متخصصين خارجيين مستقلين لتقييم الأصول والعناية الواجبة وتحسين عمليات التسييل.",
-    sv6_t: "أبحاث السوق وتحديد الفرص",
-    sv6_d: "مراقبة مستمرة للسوق لتحديد فرص الاستحواذ والوساطة في القطاعات المنظمة وغير المنظمة.",
-    sv7_t: "تنسيق الخدمات اللوجستية",
-    sv7_d:
-      "تنسيق شامل للنقل الآمن والتخزين والمناولة المتوافقة — بما في ذلك البيئات المتحكم بدرجة حرارتها.",
-    sv8_t: "الاستشارات الاستراتيجية",
-    sv8_d:
-      "خدمات استشارية لأصحاب المصلحة في تسييل الأصول وإعادة الهيكلة والمعاملات التجارية العابرة للحدود.",
+    svc1_t: "الاستحواذ والتسييل",
+    svc1_f: "كلياً أو جزئياً.",
+    svc1_d:
+      "نستحوذ على الشركات المتعثرة وأصولها، ونحوّل الأصول العينية إلى سيولة بكفاءة، عبر قنوات راسخة وشبكة شركاء موثوقة.",
+    svc2_t: "بالأصالة والنيابة",
+    svc2_f: "باسمنا أو بالنيابة.",
+    svc2_d:
+      "نتصرّف باسمنا ولحسابنا الخاص، كما نعمل وكلاء أمناء بالنيابة عن الشركات والأفراد — بسرّية وأمان قانوني.",
+    svc3_t: "البحث المخصّص",
+    svc3_f: "وفق متطلباتك.",
+    svc3_d: "بناءً على طلبك، نبحث بدقّة عن فرص استحواذ محدّدة تطابق تماماً متطلبات العميل.",
+    svc4_t: "التقييم والعناية الواجبة",
+    svc4_f: "الفرص والأصول.",
+    svc4_d:
+      "نقيّم فرص الاستحواذ لصالح الغير، ونفحص الأصول من حيث قابليتها للاستحواذ وإعادة البيع، ونقدّر إمكاناتها لتحقيق أعلى عائد.",
+    svc5_t: "التصدير واللوجستيات",
+    svc5_f: "عالمياً، وخارج الاتحاد الأوروبي.",
+    svc5_d:
+      "نتوسّط في التصدير إلى الدول خارج الاتحاد الأوروبي وننفّذه، وننظّم التخليص الجمركي والشحن البحري والجوي والبري حسب الحاجة والوجهة.",
+    svc6_t: "الفحص القانوني",
+    svc6_f: "عبر وكلاء قانونيين معتمدين.",
+    svc6_d:
+      "نفحص الفواتير ووثائق نقل الملكية عبر وكلاء قانونيين معتمدين للتأكد من قانونيتها ومطابقتها الكاملة للأنظمة.",
     process_eyebrow: "عمليتنا",
     process_title: "مسار منظم من التوريد إلى التنفيذ.",
     process_steps: ["الاكتشاف", "التقييم", "مراجعة الخبراء", "الوساطة التجارية", "التنفيذ"],
@@ -260,32 +287,41 @@ const T: Record<Lang, Dict> = {
       "İflas varlıklarını satın alır ve nakde çeviririz — tıbbi ve farmasötik mallara odaklanarak.",
     hero_cta: "İletişime Geç",
     about_title: "Hakkımızda",
-    about_body:
-      "Swift Assets UG, Solingen, Almanya merkezli genç ve dinamik bir ticaret şirketidir. İflas süreçlerinden çıkan varlıkların satın alınması, değerlendirilmesi, taşınması, depolanması ve yeniden satışında uzmanlaşıyoruz.",
+    purpose_eyebrow: "Şirket Konusu",
+    purpose_title: "Sıkıntılı Şirketlerin Devralınması ve Tasfiyesi",
+    purpose_body: [
+      "Şirketin konusu, sıkıntılı şirketlerin ve şirket varlıklarının bir bütün olarak veya kısmen devralınması ve tasfiyesidir; bu, ister kendi adına ve kendi hesabına, ister şirketlerin ve özel kişilerin talimatıyla başkalarının adına ve hesabına mütevelli sıfatıyla olsun.",
+      "Şirketin faaliyetleri, sektör ayrımı gözetmeksizin tüm ekonomik alanlara uzanır; bununla birlikte, özellikle sağlık sektörü varlıklarının tasfiyesine ağırlık verilir; bilhassa sağlık kuruluşları, hastane ve klinik donanımları, tıbbi cihazlar ve tıbbi teknoloji ürünleri, tıbbi sarf malzemeleri, kozmetik ürünler, gıda takviyeleri ile kamu sağlığı ve kişisel hijyen ürünleri.",
+      "Şirket ayrıca, müşterilerinin ilgili talimatları doğrultusunda somut devralma fırsatlarının hedefli araştırılması hizmetlerini ve üçüncü kişiler için devralma fırsatlarının değerlendirilmesini sunar; buna, varlıkların devralınabilirlik ve yeniden satılabilirlik açısından incelenmesi ile mümkün olan en yüksek getiriyi sağlama potansiyellerinin belirlenmesi dâhildir.",
+      "Şirket ayrıca, malların Avrupa Birliği dışındaki üçüncü ülkelere ihracatına aracılık etmeye ve bunu gerçekleştirmeye, ilgili gümrük işlemlerini ve ilgili siparişe ve varış yerine göre deniz, hava ve kara taşımacılığını organize etmeye yetkilidir.",
+      "Faturaların ve mülkiyet devri belgelerinin hukuka uygunluğu ve mevzuata uygunluğu açısından incelenmesi, yetkili hukuki temsilcilerin katılımıyla gerçekleştirilir.",
+      "Şirket, konusuna doğrudan veya dolaylı olarak hizmet etmeye elverişli tüm iş ve işlemleri yapmaya yetkilidir. Aynı veya benzer nitelikteki diğer şirketlere iştirak edebilir, bu tür şirketleri devralabilir, devredebilir ve temsil edebilir; yurt içinde ve yurt dışında şubeler kurabilir.",
+    ],
     services_title: "Hizmetler",
-    sv1_t: "Varlık Edinimi",
-    sv1_d:
-      "İflas süreçleri, kurumsal yeniden yapılandırmalar ve özel durumlardan stratejik varlık edinimi.",
-    sv2_t: "Varlık Tasfiyesi",
-    sv2_d:
-      "Yerleşik kanallar ve iş ortağı ağları aracılığıyla maddi varlıkların verimli şekilde nakde dönüştürülmesi.",
-    sv3_t: "Ticari Aracılık",
-    sv3_d:
-      "Yasaların izin verdiği ölçüde farmasötik ürünler ve düzenlemeye tabi mallar için yasal uyumlu aracılık çözümleri. Swift Assets yalnızca aracı olarak hareket eder ve bu malları kendi hesabına satın almaz.",
-    sv4_t: "Envanter Değerlendirme",
-    sv4_d: "Çeşitli varlık sınıflarında profesyonel yerinde envanter, kataloglama ve değerleme.",
-    sv5_t: "Harici Uzman Koordinasyonu",
-    sv5_d:
-      "Varlık değerleme, durum tespiti ve tasfiye optimizasyonu için bağımsız harici uzmanlarla koordinasyon.",
-    sv6_t: "Pazar Araştırması ve Fırsat Tespiti",
-    sv6_d:
-      "Düzenlenmiş ve düzenlenmemiş sektörlerde edinim ve aracılık fırsatlarını belirlemek için sürekli pazar takibi.",
-    sv7_t: "Lojistik Koordinasyonu",
-    sv7_d:
-      "Sıcaklık kontrollü ortamlar dahil olmak üzere güvenli taşıma, depolama ve uyumlu elleçlemenin uçtan uca koordinasyonu.",
-    sv8_t: "Stratejik Danışmanlık",
-    sv8_d:
-      "Varlık tasfiyesi, yeniden yapılandırma ve sınır ötesi ticari işlemler için paydaşlara danışmanlık hizmetleri.",
+    svc1_t: "Devralma & Tasfiye",
+    svc1_f: "Bir bütün olarak veya kısmen.",
+    svc1_d:
+      "Sıkıntılı şirketleri ve şirket varlıklarını devralır, maddi varlıkları yerleşik kanallar ve güçlü bir iş ortağı ağı aracılığıyla verimli şekilde nakde dönüştürürüz.",
+    svc2_t: "Kendi Adına & Mütevelli",
+    svc2_f: "Kendi adımıza veya mütevelli sıfatıyla.",
+    svc2_d:
+      "Hem kendi adımıza ve kendi hesabımıza hem de şirketler ve özel kişiler adına mütevelli sıfatıyla hareket ederiz — gizlilik ve hukuki güvence içinde.",
+    svc3_t: "Özel Hedef Araştırması",
+    svc3_f: "Sizin talimatlarınıza göre.",
+    svc3_d:
+      "Talebiniz üzerine, müşterilerimizin talimatlarına tam olarak uyan somut devralma fırsatlarını hedefli biçimde araştırırız.",
+    svc4_t: "Değerleme & Durum Tespiti",
+    svc4_f: "Fırsatlar ve varlıklar.",
+    svc4_d:
+      "Üçüncü kişiler için devralma fırsatlarını değerlendirir, varlıkları devralınabilirlik ve yeniden satılabilirlik açısından inceler ve mümkün olan en yüksek getiri potansiyelini belirleriz.",
+    svc5_t: "İhracat & Lojistik",
+    svc5_f: "Dünya çapında, AB dışında dahil.",
+    svc5_d:
+      "Üçüncü ülkelere ihracata aracılık eder ve bunu gerçekleştiririz; gümrük işlemleri ile deniz, hava ve kara taşımacılığını ihtiyaca ve varış yerine göre organize ederiz.",
+    svc6_t: "Hukuki İnceleme",
+    svc6_f: "Yetkili temsilciler tarafından doğrulanır.",
+    svc6_d:
+      "Faturaları ve mülkiyet devri belgelerini, yetkili hukuki temsilciler aracılığıyla hukuka ve tam mevzuat uygunluğu açısından inceleriz.",
     process_eyebrow: "Sürecimiz",
     process_title: "Tedarikten uygulamaya yapılandırılmış bir yol.",
     process_steps: ["Keşif", "Değerlendirme", "Uzman İncelemesi", "Aracılık", "Uygulama"],
