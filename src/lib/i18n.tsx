@@ -68,7 +68,7 @@ const T: Record<Lang, Dict> = {
       "Wir verfügen über ein einzigartiges Netzwerk für den Ankauf und die Weiterverwertung von:",
     spec_list: [
       "Apothekenpflichtigen Medikamenten aller Art",
-      "Betäubungsmitteln und verschreibungspflichtigen Präparaten",
+      "Vermittlung verschreibungspflichtiger und apothekenpflichtiger Ware für zugelassene Apotheken — als Vermittler",
       "Kühlkettenprodukten und temperaturempfindlichen Waren",
       "Laborchemikalien und pharmazeutischen Rohstoffen",
       "Medizinischen Verbrauchsmaterialien",
@@ -77,7 +77,7 @@ const T: Record<Lang, Dict> = {
       "Ausstattung von Arztpraxen, Kliniken und Pflegeheimen",
     ],
     spec_box:
-      "Wir garantieren eine diskrete, schnelle und rechtskonforme Abwicklung — auch bei sensiblen Warengruppen wie Betäubungsmitteln.",
+      "Wir garantieren eine diskrete, schnelle und rechtskonforme Abwicklung — auch bei sensiblen und regulierten Warengruppen.",
     contact_title: "Kontakt",
     contact_address: "Konrad-Adenauer-Straße 8\n42651 Solingen, Deutschland",
     contact_hr: "Handelsregister: [wird nachgetragen]",
@@ -157,7 +157,7 @@ const T: Record<Lang, Dict> = {
     spec_intro: "We have a unique network for the purchase and reuse of:",
     spec_list: [
       "Prescription medication of all kinds",
-      "Controlled substances and prescription-only preparations",
+      "Brokerage of prescription-only and pharmacy-only goods for licensed pharmacies — as an intermediary",
       "Cold-chain products and temperature-sensitive goods",
       "Laboratory chemicals and pharmaceutical raw materials",
       "Medical consumables",
@@ -166,7 +166,7 @@ const T: Record<Lang, Dict> = {
       "Equipment from medical practices, clinics and care homes",
     ],
     spec_box:
-      "We guarantee discreet, fast and legally compliant processing — even for sensitive goods such as controlled substances.",
+      "We guarantee discreet, fast and legally compliant processing — even for sensitive and regulated goods.",
     contact_title: "Contact",
     contact_address: "Konrad-Adenauer-Straße 8\n42651 Solingen, Germany",
     contact_hr: "Commercial register: [to be added]",
@@ -244,7 +244,7 @@ const T: Record<Lang, Dict> = {
     spec_intro: "نمتلك شبكة فريدة لشراء وإعادة تسويق:",
     spec_list: [
       "الأدوية الموصوفة بجميع أنواعها",
-      "المواد المخدرة والمستحضرات التي تتطلب وصفة طبية",
+      "التوسّط في الأدوية الموصوفة والأدوية التي تُصرف عبر الصيدلية لصالح صيدليات مرخّصة — كوسيط",
       "منتجات سلسلة التبريد والبضائع الحساسة للحرارة",
       "الكيماويات المخبرية والمواد الخام الصيدلانية",
       "المستهلكات الطبية",
@@ -252,7 +252,7 @@ const T: Record<Lang, Dict> = {
       "مستحضرات التجميل والعناية بالبشرة",
       "تجهيزات العيادات والمستشفيات ودور الرعاية",
     ],
-    spec_box: "نضمن معالجة سرية وسريعة ومتوافقة قانونياً — حتى للبضائع الحساسة كالمواد المخدرة.",
+    spec_box: "نضمن معالجة سرية وسريعة ومتوافقة قانونياً — حتى للبضائع الحساسة والمنظّمة.",
     contact_title: "تواصل معنا",
     contact_address: "Konrad-Adenauer-Straße 8\n42651 زولينغن، ألمانيا",
     contact_hr: "السجل التجاري: [يضاف لاحقاً]",
@@ -331,7 +331,7 @@ const T: Record<Lang, Dict> = {
     spec_intro: "Satın alma ve yeniden değerlendirme için benzersiz bir ağa sahibiz:",
     spec_list: [
       "Her türlü reçeteli ilaç",
-      "Kontrollü maddeler ve reçeteye tabi preparatlar",
+      "Ruhsatlı eczaneler için reçeteye tabi ve eczaneden satılan ürünlerin aracılığı — aracı olarak",
       "Soğuk zincir ürünleri ve sıcaklığa duyarlı mallar",
       "Laboratuvar kimyasalları ve farmasötik hammaddeler",
       "Tıbbi sarf malzemeleri",
@@ -340,7 +340,7 @@ const T: Record<Lang, Dict> = {
       "Muayenehane, klinik ve bakımevi donanımı",
     ],
     spec_box:
-      "Uyuşturucu maddeler gibi hassas ürünler dahil olmak üzere gizli, hızlı ve yasal uyumlu işlem garantisi veriyoruz.",
+      "Hassas ve düzenlemeye tabi ürünler dahil olmak üzere gizli, hızlı ve yasal uyumlu işlem garantisi veriyoruz.",
     contact_title: "İletişim",
     contact_address: "Konrad-Adenauer-Straße 8\n42651 Solingen, Almanya",
     contact_hr: "Ticaret sicili: [eklenecek]",
