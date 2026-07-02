@@ -68,7 +68,7 @@ const T: Record<Lang, Dict> = {
       "Wir verfügen über ein einzigartiges Netzwerk für den Ankauf und die Weiterverwertung von:",
     spec_list: [
       "Apothekenpflichtigen Medikamenten aller Art",
-      "Vermittlung verschreibungspflichtiger und apothekenpflichtiger Ware für zugelassene Apotheken — als Vermittler",
+      "Vermittlung rezept- und apothekenpflichtiger Ware für zugelassene Apotheken",
       "Kühlkettenprodukten und temperaturempfindlichen Waren",
       "Laborchemikalien und pharmazeutischen Rohstoffen",
       "Medizinischen Verbrauchsmaterialien",
@@ -157,7 +157,7 @@ const T: Record<Lang, Dict> = {
     spec_intro: "We have a unique network for the purchase and reuse of:",
     spec_list: [
       "Prescription medication of all kinds",
-      "Brokerage of prescription-only and pharmacy-only goods for licensed pharmacies — as an intermediary",
+      "Brokerage of prescription and pharmacy-only goods for licensed pharmacies",
       "Cold-chain products and temperature-sensitive goods",
       "Laboratory chemicals and pharmaceutical raw materials",
       "Medical consumables",
@@ -244,7 +244,7 @@ const T: Record<Lang, Dict> = {
     spec_intro: "نمتلك شبكة فريدة لشراء وإعادة تسويق:",
     spec_list: [
       "الأدوية الموصوفة بجميع أنواعها",
-      "التوسّط في الأدوية الموصوفة والأدوية التي تُصرف عبر الصيدلية لصالح صيدليات مرخّصة — كوسيط",
+      "التوسّط في الأدوية الموصوفة والصيدلانية لصالح صيدليات مرخّصة",
       "منتجات سلسلة التبريد والبضائع الحساسة للحرارة",
       "الكيماويات المخبرية والمواد الخام الصيدلانية",
       "المستهلكات الطبية",
@@ -331,7 +331,7 @@ const T: Record<Lang, Dict> = {
     spec_intro: "Satın alma ve yeniden değerlendirme için benzersiz bir ağa sahibiz:",
     spec_list: [
       "Her türlü reçeteli ilaç",
-      "Ruhsatlı eczaneler için reçeteye tabi ve eczaneden satılan ürünlerin aracılığı — aracı olarak",
+      "Ruhsatlı eczaneler için reçeteli ve eczaneye tabi ürünlerde aracılık",
       "Soğuk zincir ürünleri ve sıcaklığa duyarlı mallar",
       "Laboratuvar kimyasalları ve farmasötik hammaddeler",
       "Tıbbi sarf malzemeleri",

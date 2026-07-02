@@ -13,11 +13,13 @@ export function Specialty() {
         </h2>
         <div className="h-px w-24 bg-black mb-10" />
         <p className="text-lg text-[#2d2d2d] mb-8">{t("spec_intro")}</p>
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 mb-16">
+        <ul className="columns-1 md:columns-2 [column-gap:3rem] mb-16">
           {tArr("spec_list").map((item, i) => (
-            <li key={i} className="flex items-start gap-4 text-[#1a1a1a]">
-              <span className="text-[#888888] mt-2 select-none">—</span>
-              <span className="text-base md:text-lg">{item}</span>
+            <li key={i} className="flex items-start gap-4 text-[#1a1a1a] break-inside-avoid pb-4">
+              <span className="text-[#888888] mt-2 select-none" aria-hidden>
+                —
+              </span>
+              <span className="text-base md:text-lg leading-relaxed">{item}</span>
             </li>
           ))}
         </ul>
