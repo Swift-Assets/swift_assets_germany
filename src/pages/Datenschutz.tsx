@@ -13,10 +13,11 @@ export default function Datenschutz() {
         <p className="whitespace-pre-line">
           {`Verantwortlich für die Datenverarbeitung auf dieser Website ist:
 
-Swift Assets UG (haftungsbeschränkt)
-[TODO: vollständige Geschäftsanschrift eintragen]
+Swift Assets UG (haftungsbeschränkt) i.G.
+Konrad-Adenauer-Straße 8
+42651 Solingen
 E-Mail: info@swift-assets.de
-[TODO: Telefonnummer eintragen]`}
+Telefon: 017643788687`}
         </p>
         <p className="mt-3">
           Weitere Angaben zum Unternehmen finden Sie in unserem{" "}
@@ -50,10 +51,6 @@ E-Mail: info@swift-assets.de
           (berechtigtes Interesse an einer sicheren und effizienten Bereitstellung der Website).
           Soweit personenbezogene Daten in ein Drittland (USA) übertragen werden, erfolgt dies auf
           Grundlage geeigneter Garantien.
-        </p>
-        <p className="mt-3 text-sm text-[#888888]">
-          [TODO: Vor Veröffentlichung prüfen, ob ein Auftragsverarbeitungsvertrag (AVV) mit Netlify
-          abgeschlossen wurde und die Angaben zum Drittlandtransfer bestätigen.]
         </p>
       </div>
 
@@ -107,11 +104,9 @@ E-Mail: info@swift-assets.de
           notwendige Cookies eingesetzt werden, dienen diese ausschließlich dem ordnungsgemäßen
           Betrieb der Website.
         </p>
-        <p className="mt-3 text-sm text-[#888888]">
-          [TODO: Vor Veröffentlichung bestätigen, dass keine zusätzlichen Analyse- oder
-          Marketing-Dienste (z. B. Google Analytics, Meta Pixel) eingebunden werden. Bei späterer
-          Ergänzung ist diese Erklärung anzupassen und ggf. ein Cookie-Banner erforderlich.]
-        </p>
+        {/* Interner Hinweis (nicht öffentlich anzeigen): Bei späterer Einbindung von
+            Analyse-/Marketing-Diensten (z. B. Google Analytics, Meta Pixel) ist diese
+            Erklärung anzupassen und ggf. ein Cookie-Banner erforderlich. */}
       </div>
 
       <div>
@@ -134,9 +129,7 @@ E-Mail: info@swift-assets.de
         </p>
       </div>
 
-      <p className="text-sm text-[#888888]">
-        Stand: [TODO: Datum der letzten Aktualisierung eintragen]
-      </p>
+      <p className="text-sm text-[#888888]">Stand: 12. Juli 2026</p>
     </LegalLayout>
   );
 }

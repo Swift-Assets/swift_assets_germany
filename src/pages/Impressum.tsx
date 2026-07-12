@@ -10,25 +10,30 @@ export default function Impressum() {
     <LegalLayout title="Impressum">
       <p className="text-sm text-[#888888]">Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)</p>
 
+      {/* Schreibweisen beabsichtigt und KEIN Tippfehler:
+          "Aljasem" (Himmat, ein s) vs. "Aljassem" (Mohammad, doppel-s). */}
       <div>
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Diensteanbieter</h2>
         <p className="whitespace-pre-line">
-          {`Swift Assets UG (haftungsbeschränkt)
-[TODO: vollständige Geschäftsanschrift eintragen]
-[TODO: PLZ, Ort]
+          {`Swift Assets UG (haftungsbeschränkt) i.G.
+Konrad-Adenauer-Straße 8
+42651 Solingen
 Deutschland`}
         </p>
       </div>
 
       <div>
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Vertreten durch</h2>
-        <p>[TODO: Geschäftsführer/in eintragen]</p>
+        <p className="whitespace-pre-line">
+          {`Geschäftsführer: Mohammad Aljassem
+Himmat Aljasem (bevollmächtigter Vertreter von Mohammad Aljassem in allen Angelegenheiten der Gesellschaft)`}
+        </p>
       </div>
 
       <div>
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Kontakt</h2>
         <p className="whitespace-pre-line">
-          {`Telefon: [TODO: Telefonnummer eintragen]
+          {`Telefon: 017643788687
 E-Mail: info@swift-assets.de`}
         </p>
       </div>
@@ -36,8 +41,8 @@ E-Mail: info@swift-assets.de`}
       <div>
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Registereintrag</h2>
         <p className="whitespace-pre-line">
-          {`Registergericht: [TODO: zuständiges Registergericht eintragen]
-Handelsregisternummer: [TODO: HRB-Nummer eintragen]`}
+          {`Registergericht: Amtsgericht Wuppertal
+Handelsregisternummer: Die Gesellschaft befindet sich in Gründung (i.G.); die Eintragung in das Handelsregister ist beantragt. Die HRB-Nummer wird nach Erteilung an dieser Stelle nachgetragen.`}
         </p>
       </div>
 
@@ -45,7 +50,7 @@ Handelsregisternummer: [TODO: HRB-Nummer eintragen]`}
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Umsatzsteuer-ID</h2>
         <p className="whitespace-pre-line">
           {`Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
-[TODO: USt-IdNr. eintragen, falls vorhanden]`}
+Die Erteilung ist beantragt; die USt-IdNr. wird nach Vergabe an dieser Stelle nachgetragen.`}
         </p>
       </div>
 
@@ -54,8 +59,8 @@ Handelsregisternummer: [TODO: HRB-Nummer eintragen]`}
           Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
         </h2>
         <p className="whitespace-pre-line">
-          {`[TODO: verantwortliche Person eintragen]
-[TODO: Anschrift, falls abweichend]`}
+          {`Himmat Aljasem und Mohammad Aljassem
+Konrad-Adenauer-Straße 8, 42651 Solingen`}
         </p>
       </div>
 
