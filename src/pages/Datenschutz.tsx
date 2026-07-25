@@ -13,7 +13,7 @@ export default function Datenschutz() {
         <p className="whitespace-pre-line">
           {`Verantwortlich für die Datenverarbeitung auf dieser Website ist:
 
-Swift Assets UG (haftungsbeschränkt) i.G.
+Swift Assets UG (haftungsbeschränkt)
 Konrad-Adenauer-Straße 8
 42651 Solingen
 E-Mail: info@swift-assets.de

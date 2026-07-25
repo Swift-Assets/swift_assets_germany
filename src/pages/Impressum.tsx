@@ -15,7 +15,7 @@ export default function Impressum() {
       <div>
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Diensteanbieter</h2>
         <p className="whitespace-pre-line">
-          {`Swift Assets UG (haftungsbeschränkt) i.G.
+          {`Swift Assets UG (haftungsbeschränkt)
 Konrad-Adenauer-Straße 8
 42651 Solingen
 Deutschland`}
@@ -42,7 +42,7 @@ E-Mail: info@swift-assets.de`}
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Registereintrag</h2>
         <p className="whitespace-pre-line">
           {`Registergericht: Amtsgericht Wuppertal
-Handelsregisternummer: Die Gesellschaft befindet sich in Gründung (i.G.); die Eintragung in das Handelsregister ist beantragt. Die HRB-Nummer wird nach Erteilung an dieser Stelle nachgetragen.`}
+Handelsregisternummer: HRB 37064`}
         </p>
       </div>
 
