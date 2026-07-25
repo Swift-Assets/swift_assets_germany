@@ -14,6 +14,7 @@ export function Footer() {
           </div>
           <div className="text-center text-xs text-[#888888] tracking-wide">
             © 2025 Swift Assets UG (Haftungsbeschränkt)
+            <span className="block mt-1">Amtsgericht Wuppertal · HRB 37064</span>
           </div>
           <div className="flex md:justify-end justify-center">
             <LanguageSwitcher />
