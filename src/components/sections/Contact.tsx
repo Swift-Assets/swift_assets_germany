@@ -69,6 +69,45 @@ export function Contact() {
               <span>📋</span>
               <span>{t("contact_tax")}</span>
             </div>
+
+            <div className="pt-6 mt-6 border-t border-[#2d2d2d]">
+              <div className="text-xs uppercase tracking-[0.3em] text-[#888888] mb-5">
+                {t("bank_title")}
+              </div>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <span>🏦</span>
+                  <span>
+                    IBAN:{" "}
+                    <span dir="ltr" className="font-mono text-white">
+                      DE82 1001 0123 4196 1828 87
+                    </span>
+                  </span>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span>💳</span>
+                  <span>
+                    BIC/SWIFT:{" "}
+                    <span dir="ltr" className="font-mono text-white">
+                      QNTODEB2XXX
+                    </span>
+                  </span>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span>👤</span>
+                  <span>
+                    {t("bank_owner")}: Swift Assets UG (haftungsbeschränkt)
+                  </span>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span>🏠</span>
+                  <span className="whitespace-pre-line">
+                    {t("bank_owner_address")}:{"\n"}
+                    Konrad-Adenauer-Straße 8, 42651 Solingen, DE
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
 
           <form
