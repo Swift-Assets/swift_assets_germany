@@ -17,7 +17,7 @@ Swift Assets UG (haftungsbeschränkt)
 Konrad-Adenauer-Straße 8
 42651 Solingen
 E-Mail: info@swift-assets.de
-Telefon: 017643788687`}
+Telefon: +49 212 68989935`}
         </p>
         <p className="mt-3">
           Weitere Angaben zum Unternehmen finden Sie in unserem{" "}

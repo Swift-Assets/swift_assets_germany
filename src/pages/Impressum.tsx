@@ -33,7 +33,7 @@ Himmat Aljasem (bevollmächtigter Vertreter von Mohammad Aljassem in allen Angel
       <div>
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Kontakt</h2>
         <p className="whitespace-pre-line">
-          {`Telefon: 017643788687
+          {`Telefon: +49 212 68989935
 E-Mail: info@swift-assets.de`}
         </p>
       </div>
@@ -49,7 +49,9 @@ Handelsregisternummer: HRB 37064`}
       <div>
         <h2 className="mb-3 text-xl font-semibold text-[#111111]">Umsatzsteuer-ID</h2>
         <p className="whitespace-pre-line">
-          {`Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
+          {`Steuernummer: 128/5820/9058
+
+Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
 Die Erteilung ist beantragt; die USt-IdNr. wird nach Vergabe an dieser Stelle nachgetragen.`}
         </p>
       </div>
